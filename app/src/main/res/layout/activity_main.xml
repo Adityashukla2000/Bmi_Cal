@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/layLL"
+    >
+
+    <EditText
+        android:id="@+id/edtWt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Weight_edt"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:layout_marginTop="100dp"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/edFt"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:ems="10"
+        android:hint="@string/Height_edtFe"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"/>
+
+    <EditText
+        android:id="@+id/edIn"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/H_edtIn"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <Button
+        android:id="@+id/btnCal"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:text="@string/btn_Cal"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#043AE6"
+        android:textColor="#ffff"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        >
+
+    </Button>
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Result_text">
+
+    </TextView>
+
+
+</LinearLayout>
+
